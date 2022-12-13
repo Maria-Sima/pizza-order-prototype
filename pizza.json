@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "name": "Inglesina",
+    "ingredients": [
+      "tomato sauce",
+      "prosciutto crudo",
+      "basil",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Porchetta",
+    "ingredients": [
+      "tomato sauce",
+      "porchetta",
+      "rosemary",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+    2,
+      5,
+      8
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Patatosa",
+    "ingredients": [
+      "tomato sauce",
+      "potatoes",
+      "rosemary",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Tonno e Cipolla",
+    "ingredients": [
+      " tomato sauce",
+      "canned tuna",
+      "onion rings",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Parmigiana",
+    "ingredients": [
+      "tomato sauce",
+      "parmigiano",
+      "basil",
+      "eggplant",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Buffalina",
+    "ingredients": [
+      "tomato sauce",
+      "cherry tomato",
+      "basil",
+      "olive oil",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Diavola",
+    "ingredients": [
+      "tomato sauce",
+      "hot chilly peppers",
+      "spicy salami",
+      "mozzarella"
+    ],
+    "price": 3200,
+    "allergens": [
+      1,
+      3,
+      9
+    ]
+  }
+]

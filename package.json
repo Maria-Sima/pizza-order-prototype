@@ -1,0 +1,26 @@
+{
+  "name": "pizza-order-prototype-javascript-maria-sima",
+  "version": "1.0.0",
+  "description": "No starter code is provided. Start from scratch!",
+  "main": "fileReader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-Maria-Sima.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-Maria-Sima/issues"
+  },
+  "homepage": "https://github.com/CodecoolGlobal/pizza-order-prototype-javascript-Maria-Sima#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7"
+  }
+}
