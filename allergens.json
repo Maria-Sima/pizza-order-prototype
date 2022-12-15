@@ -1,28 +1,36 @@
-{
-    id: 1
-    name: "milk"
-  }{
-    id: 2
-    name: "soy"
-  }{
-    id: 3
-    name: "nuts"
-  }{
-    id: 4
-    name: "eggs"
-  }{
-    id: 5
-    name: "shellfish"
-  }{
-    id: 6
-    name: "sessami"
-  }{
-    id: 7
-    name: "mustard"
-  }{
-    id: 8
-    name: "cellery"
-  }{
-    id: 9
-    name: "gluten"
-  }
+[{
+    "id": 1,
+    "name": "milk"
+  },
+  {
+    "id": 2,
+    "name": "soy"
+  },
+  {
+    "id": 3,
+    "name": "nuts"
+  },
+  {
+    "id": 4,
+    "name": "eggs"
+  },
+  {
+    "id": 5,
+    "name": "shellfish"
+  },
+  {
+    "id": 6,
+    "name": "sessami"
+  },
+  {
+    "id": 7,
+    "name": "mustard"
+  },
+  {
+    "id": 8,
+    "name": "cellery"
+  },
+  {
+    "id": 9,
+    "name": "gluten"
+  }]
