@@ -2,7 +2,7 @@
 body{
 	margin:0px;
 	padding:0px;
-	background-image:url(./images/bg2.png);
+	background-image:url(images/pizza1.jpg);
 	background-size:cover;
 			background-repeat:no-repeat;
 			background-attachment:fixed;}
@@ -119,19 +119,19 @@ body{
 }
 
 /* IMAGES */
-#image-1 {background-image: url("images/food-1.png");}
+#images-1 {background-image: url("images/pizza2.jpg");}
 
-#image-2 {background-image: url("images/food-2.png")}
+#images-2 {background-image: url("images/pizza3.jpg")}
 
-#image-3 {background-image: url("images/food-3.png")}
+#images-3 {background-image: url("images/pizza4.jpg")}
 
-#image-4 {background-image: url("images/breakfast.png")}
+#images-4 {background-image: url("images/pizza3.jpg")}
 
-#image-5 {background-image: url("images/flavor.png")}
+#images-5 {background-image: url("images/pizza4.jpg")}
 
-#image-6 {background-image: url("images/new.png")}
+#images-6 {background-image: url("images/pizza3.jpg")}
 
-#image-7 {background-image: url("images/diavola.png")}
+#images-7 {background-image: url("images/pizza4.jpg")}
 
 
 

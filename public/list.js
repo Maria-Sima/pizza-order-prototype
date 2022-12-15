@@ -10,8 +10,8 @@ fetch('/api/pizza')
                                             <div class="image-box">
                                                 <div class="images" id="images-${item.id}"></div>
                                             </div>
-                                            <h2 class="item">${item.name}</h2>
                                             <div class="text-box">
+                                                <h2 class="item">${item.name}</h2>
                                                 <div class="ingredients">Ingredients:<br>${item.ingredients.join(' / ')}</div><br>
                                                 <div class"allergens">Allergens: ${item.allergens}</div><br>
                                                 <div class="price">${item.price}</div>
