@@ -1,18 +1,24 @@
-const body = document.querySelector('body');
-
-let allergensData = [];
+const root = document.querySelector('#root');
+const selectAllergens = document.querySelector('#select-allergens')
 
 fetch('/api/pizza')
 .then((response) => {
     return response.json();
     })
 .then((data) => {
-   for(let i = 0; i < data.length; i++){
-    body.insertAdjacentHTML("beforeend", `<div>${data[i].name}</div>
-                                        <div>${data[i].ingredients}</div>
-                                        <div>${data[i].price}</div>
-                                        <div>${data[i].allergens}</div>`);
-   }
+   root.innerHTML = data.map((item) =>`<div class="product">
+                                            <div class="image-box">
+                                                <div class="images" id="images-${item.id}"></div>
+                                            </div>
+                                            <h2 class="item">${item.name}</h2>
+                                            <div class="text-box">
+                                                <div class="ingredients">Ingredients:<br>${item.ingredients.join(' / ')}</div><br>
+                                                <div class"allergens">Allergens: ${item.allergens}</div><br>
+                                                <div class="price">${item.price}</div>
+                                                <button>Add to cart</button>
+                                                <button>Remove from cart</button>
+                                            </div>
+                                        </div>`).join("");                                  
 })
 .catch(function(error) {
     console.log(error);
@@ -23,7 +29,11 @@ fetch('/api/allergens')
     return response.json();
     })
 .then((data) => {
-   
+    selectAllergens.innerHTML = data.map((i) =>`<option value=${i.id}>${i.name}</option>`);
+    selectAllergens.addEventListener('change', () => {
+        
+    })
+
 })
 .catch(function(error) {
     console.log(error);
